@@ -126,7 +126,7 @@ const Products = () => {
   const handlePriceRangeChange = (type, value) => {
     setPriceRange((prev) => ({
       ...prev,
-      [type]: Number(value) || 0, 
+      [type]: Number(value) || 0,
     }));
   };
 
